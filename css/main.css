@@ -1,0 +1,406 @@
+body {
+	font-family: 'Avenir', sans-serif;
+	background: #dddcdc;
+}
+
+h1,
+h2 {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+a {
+
+}
+
+p {
+	font-weight: 400;
+}
+/**********************************
+GENERAL
+**********************************/
+
+.jumbotron {
+	margin: 0 0 0 0;
+	background: #dddcdc;
+}
+
+.jumbotron h1, p {
+	padding-bottom: 0.1em;
+	color: #fff;
+}
+
+.jumbotron h1 {
+	font-weight: 900;
+}
+
+#panel1 p, #panel3 p, #welcomePanel p {
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+#panel1 .row, #panel3 .row, #welcomePanel .row {
+	margin: 0 5% 0 5%;
+}
+
+/**********************************
+HEADER
+**********************************/
+
+nav, header {
+	text-align: center;
+	padding: 20px 0;
+	background: linear-gradient(270deg, #F59D48, #D34D4D);
+  	background-size: 100% 100%;     
+	-webkit-animation: gradient 7s ease infinite;
+	-moz-animation: gradient 7s ease infinite;
+	animation: gradient 7s ease infinite;
+	border: none;
+}
+
+#welcomeNav {
+	background: none;
+	-webkit-animation: none;
+	-moz-animation: none;
+	animation: none;
+}
+
+nav {
+	padding: 5px 0;
+}
+
+header {
+	padding: 10 0 0 20px;
+
+}
+
+header h1 {
+	text-align: center;
+	color: #f5f5f5;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+header h1:hover {
+	color: white;
+}
+
+header img {
+	height: 30px;
+	margin-bottom: 7px;	
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 20px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: 400;
+}
+
+nav li a {
+	color: #f5f5f5;
+	padding: 10px 10px;
+	text-decoration: none;
+	display: inline-block;
+
+}
+
+nav li a:after {
+	content: '';
+	display: block;
+	border-top: 1px solid white;    
+    width: 0;
+    transition: 0.5s ease;
+}
+
+nav li a:hover:after {
+	width: 100%;
+}
+
+nav li a:hover {
+	color: #fff;
+}
+
+
+/**************/
+
+.page-header, .page-header a {
+	margin: 0 0 0 0;
+	border-style: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.page-header h1 {
+	margin: 0 0 0 0;
+}
+
+.page-header {
+	background: linear-gradient(270deg, #F59D48, #D34D4D);
+  	background-size: 100% 100%;     
+	-webkit-animation: gradient 7s ease infinite;
+	-moz-animation: gradient 7s ease infinite;
+	animation: gradient 7s ease infinite;
+	border: none;
+}
+
+-webkit-keyframes gradient {
+    0% {background-position:0% 50%;}
+    50% {background-position:100% 50%;}
+    100% {background-position:0% 50%;}
+}
+@-moz-keyframes gradient {
+    0% {background-position:0% 50%;}
+    50% {background-position:100% 50%;}
+    100% {background-position:0% 50%;}
+}
+@keyframes gradient { 
+    0% {background-position:0% 50%;}
+    50% {background-position:100% 50%;}
+    100% {background-position:0% 50%;}
+}
+
+/**********************************
+PANEL 1 (GRADIENT BACKGROUND)
+**********************************/
+
+#panel1 {
+	padding-top: 20px;
+	padding-bottom: 200px;
+	background: linear-gradient(270deg, #F59D48, #D34D4D);
+  	background-size: 100% 100%;     
+	-webkit-animation: gradient 7s ease infinite;
+	-moz-animation: gradient 7s ease infinite;
+	animation: gradient 7s ease infinite;
+	border: none;
+}
+
+#welcomePanel {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background: url(../img/bridge.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.jumbotron-logo {
+	height: 200px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+
+.section-title {
+	width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+    z-index: -1;
+}
+
+#panel1 a {
+	color: white;
+	text-decoration: underline;
+}
+
+#greeting h1 {
+	margin-top: 0;
+}
+
+#greeting {
+	border-left: 2px solid;
+	padding-left: 10px;
+	border-color: white;
+}
+
+#down-arrow {
+	color: #fff;
+	text-align: center;
+	margin-top: 200px;
+	height: 20px;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+/*
+*********************************
+PANEL 1 PAGE: PROFILE
+**********************************/
+
+#profile {
+	padding-bottom: 100px;
+}
+
+#profile img {
+	width: 100%;
+	border: 8px solid;
+	border-color: white;
+    border-radius: 100%;
+}
+
+/*
+*********************************
+PANEL 1 PAGE: CONTACT
+**********************************/
+
+#contact {
+	padding-bottom: 50px;
+}
+
+/**********************************
+PANEL 2 (GREY BACKGROUND)
+*********************************/
+
+.page-contents {
+	margin-top: 10px;
+	position: absolute;
+    top: 700px;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: #dddcdc;
+}
+
+#panel2 {
+	text-align: center;
+	padding: 10% 8% 0% 8%;
+	background-color: #dddcdc
+}
+
+#panel2 h1 {
+	/*font-size: 3vw;*/
+	/*font-size: 4em;*/
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#panel2 a img {
+	padding-left: 7%;
+	padding-right: 7%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+#panel2 .container img {
+	width: 90%;
+	padding: 0 15% 0 15%;
+}
+
+/**********************************
+PANEL 3 (ORANGE BACKGROUND)
+**********************************/
+
+#panel3 {
+	background: #ee8a4a;
+	padding: 250px 0 250px 0;
+	background-color: rgba(0, 0, 0, 0);
+	background: linear-gradient(270deg, #F59D48, #D34D4D);
+  	background-size: 100% 100%;     
+	-webkit-animation: gradient 10s ease infinite;
+	-moz-animation: gradient 10s ease infinite;
+	animation: gradient 10s ease infinite;
+	border: none;
+}
+
+#panel3 a {
+	color: white;
+	text-decoration: underline;
+}
+
+#actioncall {
+	border-left: 2px solid;
+	border-color: white;
+	padding-left: 10px;
+}
+
+#actioncall h1 {
+	margin: 0;
+}
+
+/**********************************
+PANEL 4 (a and b) CONTENT
+**********************************/
+
+#panel4a {
+	background-color: #dddcdc;
+	z-index: 2;
+}
+
+#panel4b {
+	background-color: #dddcdc;
+}
+
+#panel4b a h3 {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+#panel4a a h3:hover,
+#panel4b a h3:hover{
+	color: #000;
+}
+
+#panel4a h1, a, 
+#panel4b h1, a{
+	color: rgb(51, 51, 51);
+	text-align: left;
+	font-weight: 100;
+}
+
+#panel4a p,
+#panel4b p {
+	color: #4F4F4F;
+}
+
+#panel4a img, #panel4b img {
+	width: 100%;
+	border: 1px solid white; 
+	border-color: #fff;
+	border-radius: 1%;
+}
+
+/**********************************
+FOOTER
+**********************************/
+
+footer {
+	font-size: 15px;
+	text-align: center;
+	padding-top: 20px;
+	color: #ee8a4a;
+	background-color: #dddcdc;
+	margin-top: 100px;
+}
+
+footer img {
+	width: 20px;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-bottom: 20px;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 10px;
+	margin-left: 1%;
+	margin-right: 1%;
+}

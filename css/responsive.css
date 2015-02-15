@@ -1,0 +1,64 @@
+@media screen and (min-width: 660px) {
+
+	
+
+	header, nav {
+		padding: 10px 0;
+	}
+
+	header img {
+		padding: 0 0 0 10px;	
+	}
+
+	nav {
+		background: none;
+		float: right;
+	}
+
+	#logo img {
+		margin: 0 10px 0 15px;
+		float: left;
+		display: inline-block;
+	}
+
+	#logo h1 {
+		padding-top: 10px;
+		float: left;
+		margin: 0;
+	}
+
+	#panel1 {
+		padding-top: 200px;
+	}
+
+	#greeting h1 {
+		font-size: 6.5vw;
+	}
+
+	#panel1 p, #panel3 p {
+		font-weight: 100;
+	}
+	footer img {
+		width: 30px;
+	}
+
+	.about-page {
+		padding-top: 100px;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+
+	#workpreview {
+	background: url("/img/workbackground.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-bottom: 10%;
+
+	}
+
+	#panel2 a img {
+	margin-bottom: 0%;
+	margin-top: 0%;
+}
